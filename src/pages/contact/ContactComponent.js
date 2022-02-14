@@ -25,7 +25,7 @@ function Contact(props) {
     <div className="contact-main">
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-contact">
-        <Fade bottom duration={1000} distance="40px">
+        <Fade bottom duration={1000} distance="30px">
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
               <img
@@ -70,7 +70,7 @@ function Contact(props) {
               </p>
               <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Twitter Profile
+                  My Medium Account
                 </a>
               </div>
             </div>
